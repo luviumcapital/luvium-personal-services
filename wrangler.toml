@@ -1,0 +1,15 @@
+name = "luvium-personal-services"
+main = "index.html"
+type = "javascript"
+
+[env.production]
+route = "*"
+zone_id = ""
+
+[build]
+cwd = "."
+command = ""
+
+[[routes]]
+pattern = "*"
+zone_id = ""
